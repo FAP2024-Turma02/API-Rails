@@ -8,7 +8,7 @@
 -     rails generate controller Product
 -     rails generate controller Info
 3. Execute a migração para o banco de dados
--     rails generate controller Info
+-     rails db:migrate
 4. Popule o bando de dados
 -  No arquivo db/seeds.rb
  ```
