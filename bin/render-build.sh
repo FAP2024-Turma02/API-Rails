@@ -3,10 +3,9 @@
 set -o errexit
 
 # Install dependencies
-bundle install
-
+bundle install --trace
 # Run database migrations
-bundle exec rake db:migrate
+rails db:migrate
 
 # Seed the database
-bundle exec rake db:seed
+rails db:seed
