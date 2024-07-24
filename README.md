@@ -5,7 +5,7 @@
 -     cd shopptex
 2. Gerando os modelos e controladores:
 -     rails generate model Product name:string price:float photo:string is_promotion:boolean
--     rails generate controller Product
+-     rails generate controller Products
 -     rails generate controller Info
 3. Execute a migração para o banco de dados
 -     rails db:migrate
