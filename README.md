@@ -64,7 +64,7 @@ end
 10. Teste os endpoints:
 -     curl -X GET -H "Accept: application/json" "http://localhost:3000/products"
 -     curl -X GET -H "Accept: application/json" "http://localhost:3000/info"
-11. Adicionando o CROS
+11. Adicionando o CORS
 - No arquivo Gemfile adicione 
 -     gem 'rack-cors'
 12. Instale a gem
