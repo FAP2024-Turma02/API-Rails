@@ -85,4 +85,3 @@ end
 - (OBS: pode ja esta no arquivo apenas comentado dependendo da versão do rails, descomente e adicone o '*' no lugar de 'https://example.com')
 14. Rode a api para conferir se esta tudo certo
 -     rails server
-
