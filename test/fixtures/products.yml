@@ -2,12 +2,12 @@
 
 one:
   name: MyString
-  price: 9.99
+  price: 1.5
   photo: MyString
   is_promotion: false
 
 two:
   name: MyString
-  price: 9.99
+  price: 1.5
   photo: MyString
   is_promotion: false

@@ -1,11 +1,11 @@
 class InfoController < ApplicationController
     def index
         shop_info = {
-        name: "TechTex",
-        color: "#85E8D8",
-        owner: "Juliana Almeida",
-        department: "Vendas"
-    }
-    render json: shop_info
-    end
+          name: "TechTex",
+          color: "#EFC3CA",
+          owner: "Nataly Carvalho",
+          department: "Vendas"
+        }
+        render json: shop_info
+      end
 end
