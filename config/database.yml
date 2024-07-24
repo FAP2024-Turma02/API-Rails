@@ -80,6 +80,6 @@ test:
 production:
   <<: *default
   url: <%= ENV['DATABASE_URL'] %>
-  database: shopptex_back_end_production
-  username: shopptex_back_end
+  database: shopptexbackend_production
+  username: shopptexbackend_user
   password: <%= ENV["SHOPPTEX_BACK_END_DATABASE_PASSWORD"] %>
