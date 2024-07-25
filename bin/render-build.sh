@@ -2,10 +2,7 @@
 # exit on error
 set -o errexit
 
-# Install dependencies
-bundle install --trace
-# Run database migrations
-rails db:migrate
-
-# Seed the database
-rails db:seed
+bundle install
+bundle exec rake db:migrate
+bundle exec rake db:seed
+chmod a+x bin/render-build.sh
