@@ -1,35 +1,24 @@
-# Projeto API Shop
+# README
 
-Este projeto foi proposto como um desafio no curso de Backend Ruby da FAP/Softex.
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-## Descrição
+Things you may want to cover:
 
-A API Shop permite obter informações sobre produtos e detalhes da loja. Abaixo estão os métodos disponíveis:
+* Ruby version
 
-### Métodos da API
+* System dependencies
 
-- **findAllProducts**: Obter todos os produtos.
-  - **Endpoint**: `/products`
-  - **Resposta**: Lista de produtos com detalhes como nome, preço, imagem e se está em promoção.
+* Configuration
 
-- **findShopInformations**: Obter informações da loja.
-  - **Endpoint**: `/info`
-  - **Resposta**: Informações da loja, incluindo nome, cor, proprietário e departamento.
+* Database creation
 
-## Exemplos de Uso
+* Database initialization
 
-### Curl
+* How to run the test suite
 
-Para obter todos os produtos:
-```sh
-curl -X GET -H "Accept: application/json" "http://localhost:8080/products"
-```
+* Services (job queues, cache servers, search engines, etc.)
 
-Para obter informações da loja:
-```sh
-curl -X GET -H "Accept: application/json" "http://localhost:8080/info"
-```
+* Deployment instructions
 
-## Projetos do backend
-
-- [Felipe Rocha Silveira](https://github.com/Rochafelip/api_shop_descount)
+* ...
