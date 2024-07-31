@@ -1,0 +1,37 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: Webcam HD
+  photo: 'https://1.bp.blogspot.com/-H_WEfy371nc/XWFA0j-KTII/AAAAAAACvkY/_npzNkUtbaIEELNcFPZBzKO2nyj2USUMgCLcBGAs/s1600/camerasdevigilancia.jpg'
+  price: 250.00
+  is_promotion: false
+
+two:
+  name: Fone de Ouvido Bluetooth
+  photo: 'https://i5.walmartimages.com/asr/b1d86aa3-24cc-4f43-98dc-964f7e9c46f7_1.e11391d810970994d1893676396c3827.jpeg'
+  price: 400.00
+  is_promotion: true
+  
+three:
+  name: Monitor 4K
+  photo: 'https://i.ebayimg.com/images/g/P7sAAOSwFVBfNAuW/s-l225.jpg'
+  price: 1200.00
+  is_promotion: false
+
+four:
+  name: Teclado Mecânico
+  photo: 'https://i5.walmartimages.com/asr/b80bd9ce-e308-4184-96a8-cab95442b5ef_1.501f5f94e610cbe51ee7ab0155fa276c.jpeg'
+  price: 300.00
+  is_promotion: true
+
+five:
+  name: Mouse Wireless
+  photo: 'https://m.media-amazon.com/images/I/61JCursHF6L._AC_SL1020_.jpg'
+  price: 150.00
+  is_promotion: false
+
+six:
+  name: Laptop Gamer
+  photo: 'https://a-static.mlcdn.com.br/1500x1500/laptop-da-xuxa-musical-bilingue-60-atividades-candide-xuxa/toymania/49653/865a1854cc89aba5e1ba82fe75d8c4ee.jpg'
+  price: 2500.00
+  is_promotion: true
