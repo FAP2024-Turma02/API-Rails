@@ -1,0 +1,3 @@
+[submodule "api_shop_descount"]
+	path = api_shop_descount
+	url = git@github.com:Rochafelip/api_shop_descount.git
