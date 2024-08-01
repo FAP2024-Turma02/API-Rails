@@ -33,3 +33,6 @@ curl -X GET -H "Accept: application/json" "http://localhost:8080/info"
 ## Projetos do backend
 
 - [Felipe Rocha Silveira](https://github.com/Rochafelip/api_shop_descount)
+
+## Documentação do Rails
+[Documentação API Rails: Passo a passo](https://docs.google.com/document/d/1yIWf4GYfvrR5bY7T6LVmlSd0OINGqeAPOfdIkxH_qIE/edit?usp=sharing)
