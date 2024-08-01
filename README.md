@@ -49,8 +49,8 @@ Certifique-se de ter os seguintes softwares instalados em sua máquina:
 O banco de dados contém uma tabela `products` com os seguintes campos:
 
 - `name` (string): O nome do produto.
-- `price` (decimal): O preço do produto.
-- `image` (string): A URL da imagem do produto.
+- `price` (float): O preço do produto.
+- `photo` (string): A URL da imagem do produto.
 - `on_promotion` (boolean): Indica se o produto está em promoção.
 - `created_at` (datetime): A data e hora de criação do registro.
 - `updated_at` (datetime): A data e hora de atualização do registro.
